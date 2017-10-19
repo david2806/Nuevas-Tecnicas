@@ -1,43 +1,32 @@
-<?php
-        
-    class ubicacionMD
-    {
+<?php        
+    class ubicacionMD{
         var $zona;
-		var $bloque;
+	var $bloque;
         var $fila;
-        var $puesto;
-		
-        function setZona($zona)
-		{
+        var $puesto;		
+        function setZona($zona){
             $this->zona=$zona;
         }
-        function setBloque($bloque) 
-        {
+        function setBloque($bloque){
             $this->bloque = $bloque;
         }
-		function setFila($fila) 
-        {
+	function setFila($fila){
             $this->fila = $fila;
         }
-		function setPuesto($puesto) 
-        {
+	function setPuesto($puesto){
             $this->puesto = $puesto;
-        }
-                    
+        }                    
         function getZona() {
-			return $this->zona;
+		return $this->zona;
         }
-
         function getBloque() {
-			return $this->bloque;
-        }
-		
-		function getFila() {
-			return $this->fila;
-        }
-		
-		function getPuesto() {
-			return $this->puesto;
+		return $this->bloque;
+        }		
+	function getFila() {
+		return $this->fila;
+        }		
+	function getPuesto() {
+		return $this->puesto;
         }
     }
  ?>
