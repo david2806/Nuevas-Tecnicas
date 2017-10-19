@@ -1,46 +1,32 @@
-<?php
-        
-    class productoMD
-    {
+<?php        
+    class productoMD{
         var $codigo;
         var $tipo;
-		var $nombre;
-        var $precio;
-				
-        function setCodigo($codigo)
-		{
+	var $nombre;
+        var $precio;				
+        function setCodigo($codigo){
             $this->codigo=$codigo;
-        }
-		
-		function setTipo($tipo) 
-        {
+        }		
+	function setTipo($tipo){
             $this->tipo = $tipo;
         }
-		
-		function setNombre($nombre)
-		{
+	function setNombre($nombre){
             $this->nombre=$nombre;
-        }
-         
-		function setPrecio($precio) 
-        {
+        }         
+	function setPrecio($precio){
             $this->precio = $precio;
-        }
-		
-		function getCodigo() {
-			return $this->codigo;
-        }
-		
-		function getTipo() {
-			return $this->tipo;
-        }
-		
+        }		
+	function getCodigo() {
+		return $this->codigo;
+        }		
+	function getTipo() {
+		return $this->tipo;
+        }		
         function getNombre() {
-			return $this->nombre;
-        }
-        
-		function getPrecio() {
-			return $this->precio;
+		return $this->nombre;
+        }        
+	function getPrecio() {
+		return $this->precio;
         }
     }
  ?>
