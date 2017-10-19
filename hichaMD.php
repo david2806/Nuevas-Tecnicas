@@ -17,12 +17,10 @@
 		function setTipoPersona($tipoPersona) 
         {
             $this->tipoPersona = $tipoPersona;
-        }
-                    
+        }                    
         function getNombre() {
 			return $this->nombre;
         }
-
         function getGenero() {
         return $this->genero;
         }
