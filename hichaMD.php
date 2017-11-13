@@ -1,6 +1,6 @@
 <?php
         
-    class hinchaMD
+    class hinchaDP
     {
         var $nombre;
         var $genero;
