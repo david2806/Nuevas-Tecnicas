@@ -1,5 +1,5 @@
 <?php        
-    class productoMD{
+    class productoDP{
         var $codigo;
         var $tipo;
 	var $nombre;
