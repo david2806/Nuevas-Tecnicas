@@ -1,5 +1,5 @@
 <?php        
-    class ubicacionMD{
+    class ubicacionDP{
         var $zona;
 	var $bloque;
         var $fila;
