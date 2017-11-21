@@ -1,0 +1,115 @@
+AT
+
+OK
+AT+CIOBAUD=9600
+
+OK
+WIFI CONNECTED
+WIFI GOT IP
+AT+GMR
+AT version:0.25.0.0(Jun  5 2015 16:27:16)
+SDK version:1.1.1
+Ai-Thinker Technology Co. Ltd.
+Jun  5 2015 23:07:20
+
+OK
+AT+CWMODE
+
+ERROR
+AT+CWMODE?
++CWMODE:3
+
+OK
+AT+CWLAP
++CWLAP:(4,"FAMILIA_PINOS",-59,"d0:65:ca:d8:3c:dc",1)
++CWLAP:(0,"#QuitoTeConecta",-73,"a4:6c:2a:68:e3:60",1)
++CWLAP:(3,"VANESSITA",-86,"88:94:7e:f8:3d:3e",10)
++CWLAP:(3,"jean",-38,"86:98:66:02:59:5f",10)
++CWLAP:(4,"FERNANDO",-83,"ac:cf:85:cf:76:b0",11)
++CWLAP:(4,"AULESTIA",-78,"24:09:95:f1:c8:c4",11)
+
+OK
+WIFI DISCONNECT
+WIFI CONNECTED
+WIFI GOT IP
+
+AT+CWJAP="jean","jean.888"
+WIFI DISCONNECT
+WIFI CONNECTED
+WIFI GOT IP
+
+OK
+
+AT+CIPMUX=1
+
+OK
+AT+CIPSERVER=1,80
+
+OK
+AT+SIFSR
+
+ERROR
+AT+CIFSR
++CIFSR:APIP,"192.168.4.1"
++CIFSR:APMAC,"a2:20:a6:2d:88:01"
++CIFSR:STAIP,"192.168.43.36"
++CIFSR:STAMAC,"a0:20:a6:2d:88:01"
+
+OK
+0,CONNECT
+
++IPD,0,381:GET / HTTP/1.1
+Host: 192.168.43.36
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+
+1,CONNECT
+1,CLOSED
+0,CLOSED
+0,CONNECT
+
++IPD,0,390:GET /HOLAMUNDO HTTP/1.1
+Host: 192.168.43.36
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Upgrade-Insecure-Requests: 1
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: es-ES,es;q=0.9
+
+1,CONNECT
+2,CONNECT
+3,CONNECT
+
++IPD,2,451:GET /se%C3%B1altelefono HTTP/1.1
+Host: 192.168.43.36
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: es-US,es-419;q=0.8,es;q=0.6
+
+2,CLOSED
+3,CLOSED
+1,CLOSED
+0,CLOSED
+0,CONNECT
+1,CONNECT
+
++IPD,0,441:GET /telefono HTTP/1.1
+Host: 192.168.43.36
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+Save-Data: on
+User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.125 Mobile Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Accept-Encoding: gzip, deflate
+Accept-Language: es-US,es-419;q=0.8,es;q=0.6
+
+
